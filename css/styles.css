@@ -198,7 +198,7 @@ header {
 /* Hero-section */
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/hero-background.avif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/hero-background.avif");
 }
 
 .hero-container {
@@ -584,6 +584,10 @@ footer {
 
 /* tickets-section-768+ */
 @media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+
   .concerts-header-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1.5fr 1.2fr;
