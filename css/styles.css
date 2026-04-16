@@ -124,6 +124,7 @@ body {
 ol,
 ul {
   list-style: none;
+  list-style-type: none;
 }
 blockquote,
 q {
