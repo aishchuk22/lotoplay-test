@@ -780,6 +780,15 @@ footer {
 }
 
 @media screen and (min-width: 1080px) {
+  .container {
+    padding-left: 20px;
+    padding-left: 20px;
+  }
+
+  .ticket-section-container {
+    padding: 16px 0px 0px;
+  }
+
   .hero-container {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -796,5 +805,65 @@ footer {
   .hero-btn {
     margin-top: 20px;
     font-size: 14px;
+  }
+
+  .order-btn {
+    padding: 12px 16px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .grid-header-item {
+    font-size: 14px;
+  }
+
+  .value {
+    font-size: 14px;
+  }
+
+  .team-section {
+    padding-top: 60px;
+  }
+
+  .team-section .section-title {
+    margin-bottom: 24px;
+  }
+
+  .team-list {
+    gap: 92px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .about-us-section .section-title {
+    text-align: justify;
+  }
+
+  .about-us-section img {
+    width: 33%;
+  }
+
+  .contact-section p {
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr 1fr;
+    align-content: start;
+  }
+
+  .form-group:nth-child(3),
+  .submit-btn {
+    grid-column: 1 / -1;
+  }
+
+  .form-group label {
+    font-size: 13px;
+  }
+
+  .map-wrapper {
+    height: 280px;
   }
 }
